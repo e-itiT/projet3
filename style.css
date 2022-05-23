@@ -1,0 +1,38 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(img/background-accueil.jpg);
+   height: 100vh;
+   background-size: cover;
+}
+
+.container{
+    font-size: 4rem;
+    position: absolute;
+    animation: monAnimation 2s ;
+    top: 65%;
+    right: 20%;
+    color: black;
+    font-weight: 600;
+    
+}
+
+@keyframes monAnimation{
+    0%{
+        opacity: 0;
+        top: 20%;
+    
+    }
+
+    100%{
+        opacity: 1;
+        top: 65%;
+    }
+
+
+    
+}
